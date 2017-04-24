@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_translate"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent" >
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_lang_swap"
+                android:scaleType="centerInside"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/ic_compare_arrows_black_34dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/tv_lan_from"
+                android:layout_marginEnd="15dp"
+                android:gravity="end|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/iv_lang_swap" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/tv_lan_to"
+                android:layout_marginStart="15dp"
+                android:gravity="start|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/iv_lang_swap" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.dictionary_screen.DictionaryFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_history"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent" >
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_history"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/tb_history"
+        android:id="@+id/vp_dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

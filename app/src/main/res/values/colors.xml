@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#FFEE58</-color!-->
+    <color name="colorPrimary">@android:color/holo_red_light</color>
+    <color name="colorPrimaryDark">@android:color/holo_red_dark</color>
+    <color name="colorAccent">@android:color/holo_orange_light</color>
+    <color name="colorHint">#585858</color>
+    <color name="colorSyn">#5e1e1e</color>
+    <color name="colorGen">#585858</color>
+    <color name="colorMean">#382222</color>
+    <color name="colorEx">#664c4c</color>
+    <color name="colorPos">#664c4c</color>
+    <color name="colorTrNumb">#382222</color>
+    <color name="colorTs">#585858</color>
+
+</resources>
